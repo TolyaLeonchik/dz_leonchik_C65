@@ -13,7 +13,7 @@ public class task1 {
             Student unit = new Student();
             unit.group = 65;
             unit.name = sc.nextLine();
-            unit.mark = random.nextInt(10);
+            unit.mark = random.nextInt(11);
             mas[i] = unit;
             System.out.println(mas[i]);
             //System.out.printf("Имя студента: %s\nГруппа: %d\tОценка: %d\n",unit.name,unit.group,unit.mark);     //вывод инф.всех студентов
