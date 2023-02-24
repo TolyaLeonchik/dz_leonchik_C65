@@ -32,11 +32,9 @@ public class Computer {
         rndm = random.nextInt(2);
         if (workingPC) {
             guess = sc.nextInt();
-            if (rndm == guess) {
-                System.out.println("//BLACK SCREEN//");
-            } else {
+            System.out.println("//BLACK SCREEN//");
+            if (rndm != guess) {
                 workingPC = false;
-                System.out.println("//BLACK SCREEN//");
             }
         }
     }
