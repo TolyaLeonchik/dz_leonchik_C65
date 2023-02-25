@@ -12,11 +12,11 @@ public class task2 {
         member.age = sc.nextInt();
         System.out.println("The number of grams of food you give your cat:");
         member.amountFood = sc.nextInt();
-        /*if (member.feeding(member.amountFood)) {          //метод по заданию (не проходит commit)
+        if (member.feeding(member.amountFood)) {          //метод по заданию
             System.out.printf("Your pet %s is happy!", member.name);
         }   else {
             System.out.printf("Your pet %s is hungry(", member.name);
-        }*/
-        member.feeding(member.amountFood);
+        }
+        //member.feeding(member.amountFood);                //второй способ, если через метод класса
     }
 }
