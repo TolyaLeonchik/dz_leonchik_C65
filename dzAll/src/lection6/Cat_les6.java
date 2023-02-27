@@ -1,6 +1,6 @@
 package lection6;
 
-public class Cat {
+public class Cat_les6 {
     String name;
     int age;
     int amountFood;
