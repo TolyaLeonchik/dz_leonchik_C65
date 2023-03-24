@@ -34,15 +34,15 @@ public class main {
                     System.out.print(" - Valid\n");
 
                     validOutput.write(buffer, 0, buffer.length);
-                    validOutput.write("\n".getBytes());
+                    validOutput.write("\r\n".getBytes());
                 } else {
                     System.out.print(" - Not Valid\n");
 
                     notValidOutput.write(buffer, 0, buffer.length);
                     if (s.length() != 15) {
-                        notValidOutput.write(" - Неверное количество символов\n".getBytes());
+                        notValidOutput.write(" - Неверное количество символов\r\n".getBytes());
                     } else {
-                        notValidOutput.write(" - Неверное имя документа\n".getBytes());
+                        notValidOutput.write(" - Неверное имя документа\r\n".getBytes());
                     }
                 }
             }
