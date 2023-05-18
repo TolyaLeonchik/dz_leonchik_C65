@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>minsk-region</servlet-name>
+    <servlet-class>com.timezone.Minsk</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>minsk-region</servlet-name>
+    <url-pattern>/minsk</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>washington-region</servlet-name>
+    <servlet-class>com.timezone.Washington</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>washington-region</servlet-name>
+    <url-pattern>/washington</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>beijing-region</servlet-name>
+    <servlet-class>com.timezone.Beijing</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>beijing-region</servlet-name>
+    <url-pattern>/beijing</url-pattern>
+  </servlet-mapping>
+</web-app>
